@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .contenedor {
     display: flex;
     flex-direction: column;
@@ -5,9 +9,8 @@
     align-items: center;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
-
 }
+
 .cabecera{
     margin: 2rem;
     background-image: url(./gato_con_botas.jpg);
