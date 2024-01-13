@@ -49,3 +49,13 @@
     background-color: limegreen;
     color: white;
 }
+
+@media (max-width: 481px) {
+    .contenedor-grid{
+        gap:1rem;
+    }
+
+    .cabecera{
+        width: 90%;
+    }
+}
