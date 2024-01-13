@@ -1,0 +1,51 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+
+}
+.cabecera{
+    margin: 2rem;
+    background-image: url(./gato_con_botas.jpg);
+    background-repeat: none;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
+}
+
+.ocultar {
+    visibility: hidden;
+}
+
+.boton{
+    text-transform: uppercase;
+    width: 10rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 25px;
+    color:white;
+    background-color: black;
+    font-size: xx-large;
+    border: 1px solid white;
+}
+
+.si{
+    background-color: limegreen;
+    color: white;
+}
